@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslategray;
+    color: black;
+
+}
+.text_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 15vh;
+    background-color: bisque;
+
+}
+.block_of_changeble_text_in_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 15vh;
+    .t1{
+        display: block;
+    }
+    
+}
+.block_of_changeble_text_in_button{
+    .t2{
+        display: none;
+    }
+}
+.block_of_changeble_text_in_button:hover{
+    .t2{
+        display: block;
+    }
+}
+.block_of_changeble_text_in_button:hover{
+    .t1{
+        display: none;
+    }
+}
